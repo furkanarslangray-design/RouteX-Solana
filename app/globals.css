@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --background: 160 23% 5%; --foreground: 0 0% 98%; --card: 160 22% 9%; --card-foreground: 0 0% 98%; --popover: 160 22% 9%; --popover-foreground: 0 0% 98%; --primary: 82 86% 62%; --primary-foreground: 160 23% 5%; --secondary: 155 18% 14%; --secondary-foreground: 0 0% 98%; --muted: 155 18% 14%; --muted-foreground: 153 12% 61%; --accent: 155 18% 14%; --accent-foreground: 0 0% 98%; --destructive: 0 63% 31%; --destructive-foreground: 0 0% 98%; --border: 150 12% 18%; --input: 150 12% 18%; --ring: 82 86% 62%; --radius: 0.75rem; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #08100f; color: #f6faf7; font-family: Arial, Helvetica, sans-serif; }
+button, a, select { -webkit-tap-highlight-color: transparent; }
+.wallet-adapter-dropdown { position: relative; }
+.wallet-adapter-button { font-family: inherit !important; }
+.wallet-adapter-modal-wrapper { background: #101b18 !important; }
+.wallet-adapter-modal-title { color: #f6faf7 !important; }
+.wallet-adapter-modal-list li { background: #182821 !important; }
+.wallet-adapter-modal-list li button { color: #f6faf7 !important; }
+.wallet-adapter-modal-button-close { background: #a3f34b !important; }
+@layer base { * { @apply border-border; } }
